@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuClimb", "DocuClimb.Model\DocuClimb.csproj", "{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuClimb.Tests", "DocuClimb.Tests\DocuClimb.Tests.csproj", "{369A3928-AB7F-47D2-B927-C328CCC584D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369A3928-AB7F-47D2-B927-C328CCC584D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369A3928-AB7F-47D2-B927-C328CCC584D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369A3928-AB7F-47D2-B927-C328CCC584D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369A3928-AB7F-47D2-B927-C328CCC584D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
