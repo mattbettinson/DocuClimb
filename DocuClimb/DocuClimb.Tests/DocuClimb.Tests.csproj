@@ -59,7 +59,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DocuClimb.Model\DocuClimb.csproj">
+    <ProjectReference Include="..\DocuClimb\DocuClimb.csproj">
       <Project>{f073e2aa-ac16-4aa4-8ddb-8c8727dd48ca}</Project>
       <Name>DocuClimb</Name>
     </ProjectReference>
