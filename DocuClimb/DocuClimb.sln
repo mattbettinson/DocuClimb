@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuClimb.Tests", "DocuClim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuClimb", "DocuClimb\DocuClimb.csproj", "{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuClimb.Web", "DocuClimb.Web\DocuClimb.Web.csproj", "{BC3B993F-0A51-4EB6-9EA8-51D83CAD0095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F073E2AA-AC16-4AA4-8DDB-8C8727DD48CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3B993F-0A51-4EB6-9EA8-51D83CAD0095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3B993F-0A51-4EB6-9EA8-51D83CAD0095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3B993F-0A51-4EB6-9EA8-51D83CAD0095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3B993F-0A51-4EB6-9EA8-51D83CAD0095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,7 +26,7 @@ namespace DocuClimb.Domain
         [Required]
         public string Value { get; set; }
 
-        public virtual ICollection<Climb> Climbs { get; set; }
+        public virtual List<Climb> Climbs { get; set; }
 
     }
 }
