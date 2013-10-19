@@ -1,0 +1,44 @@
+﻿<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="panel-title">Depot Summer League Round 4 (open competition)</h3>
+                    </div>
+                    <div class="col-md-6 text-right">(tick) Entered</div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <p class="text-left">Current results (top 10)</p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Climbs completed</th>
+                            <th>Climbs remaining</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (var i = 1; i <= 10; i++)
+                        {
+                            <tr>
+                                <td>@i.ToString()</td>
+                                <td>John Smith</td>
+                                <td>@(30 - i)</td>
+                                <td>@i.ToString()</td>
+                                <td>@((30 - i) * 10)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="row">
+                    <div class="col-md-6">(location icon) Depot Climbing Centre, Nottingham</div>
+                    <div class="col-md-6 text-right">(entrants icon) 35</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

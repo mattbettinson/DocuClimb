@@ -1,0 +1,27 @@
+﻿/* Miscellaneous */
+body {
+    border-top: 5px solid #14a900;
+}
+
+.container {
+    
+}
+
+/* Navbar */
+
+.navbar {
+    border:none;
+}
+
+.navbar-inner {
+    background-color:#14a900;
+    border:none;
+}
+
+.navbar-nav > li > a {
+    color:white;
+}
+
+.navbar .nav > li > a:hover {
+    background:#118d00;
+}
