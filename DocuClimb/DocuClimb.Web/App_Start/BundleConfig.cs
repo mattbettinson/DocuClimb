@@ -29,15 +29,15 @@ namespace DocuClimb.Web
                 ));
 
             // Bootstrap
-            bundles.Add(new StyleBundle("~/bundles/bootstrap/css").Include(
-                        "~/Content/bootstrap/css/bootstrap-theme.css",
-                        "~/Content/bootstrap/css/bootstrap-theme.min.css",
-                        "~/Content/bootstrap/css/bootstrap.css",
-                        "~/Content/bootstrap/css/bootstrap.min.css"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap/js").Include(
-                        "~/Content/bootstrap/js/bootstrap.js",
-                        "~/Content/bootstrap/js/bootstrap.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap/js").Include("~/Scripts/bootstrap.js"));
+
+            bundles.Add(new StyleBundle("~/bundles/bootstrap/css")
+                .Include("~/Content/bootstrap/bootstrap.css")
+                //.Include("~/Content/bootstrap/bootword/bootstrap-bootword-theme.css")
+                //.Include("~/Content/bootstrap/bootword/bootstrap-bootword-site.css")
+                .Include("~/Content/bootstrap-overrides.css"));
+                                    
         }
     }
 }

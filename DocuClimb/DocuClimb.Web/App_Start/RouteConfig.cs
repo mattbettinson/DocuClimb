@@ -14,6 +14,16 @@ namespace DocuClimb.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+              name: "About",
+              url: "About",
+              defaults: new { controller = "Home", action = "About" });
+
+            routes.MapRoute(
+                name: "Home",
+                url: "{controller}/{action}",
+                defaults: new { controller = "Home", action = "Index" });
+
+            routes.MapRoute(
                 name: "Climber",
                 url: "{controller}/{action}",
                 defaults: new { controller = "Climber", action = "List"}

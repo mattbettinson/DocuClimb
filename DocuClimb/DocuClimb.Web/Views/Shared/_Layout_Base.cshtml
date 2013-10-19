@@ -15,18 +15,23 @@
     @Styles.Render("~/bundles/site/css")
 </head>
 <body>
+    <div class="outer">
+        @RenderSection("Header")
 
-    <div class="container">
-        @RenderSection("Navbar")
-        @RenderBody()
+        <div class="container">
+            @RenderBody()
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//code.jquery.com/jquery.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="//code.jquery.com/jquery.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap/js")
-        @RenderSection("scripts", required: false)
+            @RenderSection("Footer")
+        </div>
     </div>
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap/js")
+    @RenderSection("scripts", required: false)
+    
 </body>
 </html>
