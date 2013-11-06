@@ -1,0 +1,14 @@
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\DocuClimb.Domain.Tests.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\DocuClimb.Domain.Tests.pdb
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\obj\Debug\DocuClimb.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\obj\Debug\DocuClimb.Domain.Tests.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\obj\Debug\DocuClimb.Domain.Tests.pdb
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\DocuClimb.Domain.Tests.dll.config
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\DocuClimb.Domain.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\DocuClimb.Domain.pdb
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matt\Documents\GitHub\DocuClimb\DocuClimb\DocuClimb.Domain.Tests\bin\Debug\nunit.framework.xml
