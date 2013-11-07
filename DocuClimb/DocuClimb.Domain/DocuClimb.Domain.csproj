@@ -47,10 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Climb.cs" />
+    <Compile Include="Climber.cs" />
     <Compile Include="Competition.cs" />
+    <Compile Include="Data\DocuClimbInitializer.cs" />
+    <Compile Include="Data\Entity\ClimbConfiguration.cs" />
+    <Compile Include="Data\Entity\ClimberConfiguration.cs" />
+    <Compile Include="Data\Entity\CompetitionConfiguration.cs" />
     <Compile Include="Data\DocuClimbDbConfiguration.cs" />
     <Compile Include="Data\DocuClimbDbContext.cs" />
+    <Compile Include="Data\Entity\ResultConfiguration.cs" />
+    <Compile Include="Data\Entity\RoundConfiguration.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
     <Compile Include="Round.cs" />
   </ItemGroup>
   <ItemGroup>

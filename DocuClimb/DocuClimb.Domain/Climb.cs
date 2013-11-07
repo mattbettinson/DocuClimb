@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DocuClimb.Domain
 {
-    public class Climb
+    public class Climb: Entity
     {
-        public Guid ClimbID { get; set; }
-
-        public Guid RoundID { get; set; }
+        public Climb(): base()
+        {
+            Rounds = new Collection<Round>();
+        }
 
         public string Name { get; set; }
         
@@ -19,6 +21,8 @@ namespace DocuClimb.Domain
 
         //TODO change to ICollection of grades (for different grade systems)
         public string Grade { get; set; }
+
+        public ICollection<Round> Rounds { get; set; }
 
         //TODO collection of climbers
         
